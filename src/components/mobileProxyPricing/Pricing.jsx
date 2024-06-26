@@ -40,7 +40,7 @@ const Pricing = ({ standard, basic, premium, custom, pricing }) => {
         <section className="h-[707px] w-[272px] rounded-3xl py-10 px-5 flex flex-col justify-between hover:border-t-[30px] hover:border-[4px] border-[2px] border-[#0203EC] cursor-pointer">
           <section className="flex flex-col gap-12 ">
             <div className="h-[170px]">
-              <h1 className="text-lg text-[#121D2F] font-medium">Started</h1>
+              <h1 className="text-lg text-[#121D2F] font-bold uppercase ">Started</h1>
               <p className="text-[14px]/[20px] text-[#979197] mb-5">
                 {standard}
               </p>
@@ -67,7 +67,7 @@ const Pricing = ({ standard, basic, premium, custom, pricing }) => {
         <section className="relative h-[707px] w-[272px] rounded-3xl py-10 px-5 flex flex-col justify-between hover:border-t-[30px] hover:border-[4px] border-[2px] border-[#0203EC] cursor-pointer">
           <section className="flex flex-col gap-12">
             <div className="h-[170px]">
-              <h1 className="text-lg text-[#121D2F] font-medium">Basic</h1>
+              <h1 className="text-lg text-[#121D2F] font-bold uppercase">Basic</h1>
               <p className="text-[14px]/[20px] text-[#979197]">{basic}</p>
               <div className="mt-10">
                 <span className="text-[48px] font-medium">$50</span>
@@ -107,7 +107,7 @@ const Pricing = ({ standard, basic, premium, custom, pricing }) => {
         <section className="relative  h-[750px] w-[272px] rounded-3xl py-5 px-5 flex flex-col border-t-[40px] justify-between hover:border-t-[50px] hover:border-[4px] border-[3px] border-[#0203EC] cursor-pointer -mt-[40px]">
           <section className="flex flex-col gap-12 mt-[1px]">
             <div className="h-[170px]">
-              <h1 className="text-lg text-[#121D2F] font-medium mt-[20px]">Advanced</h1>
+              <h1 className="text-lg text-[#121D2F] font-bold uppercase mt-[20px]">Advanced</h1>
               <p className="text-[14px]/[20px] text-[#979197]">{premium}</p>
               <div className="mt-9">
                 <span className="text-[48px] font-medium">$1000</span>
@@ -118,7 +118,7 @@ const Pricing = ({ standard, basic, premium, custom, pricing }) => {
               </div>
             </div>
 
-            <Link to="https://app.accusolvaproxy.com/" className="-mt-3">
+            <Link to="https://app.accusolvaproxy.com/" className="-mt-0">
               <button className="w-[230px] h-[40px] rounded-sm text-[#0103EC] bg-[#00000040] shadow-md hover:scale-105 mt-5">
                 Choose plan
               </button>
@@ -147,7 +147,7 @@ const Pricing = ({ standard, basic, premium, custom, pricing }) => {
         <section className="relative h-[707px] w-[272px] rounded-3xl py-10 px-5 flex flex-col justify-between hover:border-t-[30px] hover:border-[4px] border-[2px] border-[#0203EC] cursor-pointer">
           <section className="flex flex-col gap-12">
             <div className="h-[170px]">
-              <h1 className="text-lg text-[#121D2F] font-medium">Exclusive</h1>
+              <h1 className="text-lg text-[#121D2F] font-bold uppercase">Exclusive</h1>
               <p className="text-[14px]/[20px] text-[#979197]">{basic}</p>
               <div className="mt-10">
                 <span className="text-[48px] font-medium">$150</span>
@@ -187,7 +187,7 @@ const Pricing = ({ standard, basic, premium, custom, pricing }) => {
         <section className="relative h-[707px] w-[272px] rounded-3xl py-10 px-5 flex flex-col justify-between hover:border-t-[30px] hover:border-[4px] border-[2px] border-[#0203EC] cursor-pointer">
           <section className="flex flex-col gap-12">
             <div className="h-[170px]">
-              <h1 className="text-lg text-[#121D2F] font-medium">Business</h1>
+              <h1 className="text-lg text-[#121D2F] font-bold uppercase">Business</h1>
               <p className="text-[14px]/[20px] text-[#979197]">{basic}</p>
               <div className="mt-10">
                 <span className="text-[48px] font-medium">$350</span>
@@ -227,7 +227,7 @@ const Pricing = ({ standard, basic, premium, custom, pricing }) => {
         <section className="relative h-[707px] w-[272px] rounded-3xl py-10 px-5 flex flex-col justify-between hover:border-t-[30px] hover:border-[4px] border-[2px] border-[#0203EC] cursor-pointer">
           <section className="flex flex-col gap-12">
             <div className="h-[170px]">
-              <h1 className="text-lg text-[#121D2F] font-medium">Proficient</h1>
+              <h1 className="text-lg text-[#121D2F] font-bold uppercase">Proficient</h1>
               <p className="text-[14px]/[20px] text-[#979197]">{basic}</p>
               <div className="mt-10">
                 <span className="text-[48px] font-medium">$650</span>
@@ -267,7 +267,7 @@ const Pricing = ({ standard, basic, premium, custom, pricing }) => {
         <section className="relative h-[707px] w-[272px] rounded-3xl py-10 px-5 flex flex-col justify-between hover:border-t-[30px] hover:border-[4px] border-[2px] border-[#0203EC] cursor-pointer">
           <section className="flex flex-col gap-12">
             <div className="h-[170px]">
-              <h1 className="text-lg text-[#121D2F] font-medium">Plus</h1>
+              <h1 className="text-lg text-[#121D2F] font-bold uppercase">Plus</h1>
               <p className="text-[14px]/[20px] text-[#979197]">{basic}</p>
               <div className="mt-10">
                 <span className="text-[48px] font-medium">$1500</span>
@@ -308,7 +308,7 @@ const Pricing = ({ standard, basic, premium, custom, pricing }) => {
         <section className="relative h-[707px] w-[272px] rounded-3xl py-10 px-5 flex flex-col justify-between hover:border-t-[30px] hover:border-[4px] border-[2px] border-[#0203EC] cursor-pointer">
           <section className="flex flex-col gap-12">
             <div className="h-[170px]">
-              <h1 className="text-lg text-[#121D2F] font-medium">Business Pro</h1>
+              <h1 className="text-lg text-[#121D2F] font-bold uppercase">Business Pro</h1>
               <p className="text-[14px]/[20px] text-[#979197]">{basic}</p>
               <div className="mt-10">
                 <span className="text-[48px] font-medium">$2500</span>
@@ -348,7 +348,7 @@ const Pricing = ({ standard, basic, premium, custom, pricing }) => {
         <section className="relative h-[707px] w-[272px] rounded-3xl py-10 px-5 flex flex-col justify-between hover:border-t-[30px] hover:border-[4px] border-[2px] border-[#0203EC] cursor-pointer">
           <section className="flex flex-col gap-12">
             <div className="h-[170px]">
-              <h1 className="text-lg text-[#121D2F] font-medium">Premium</h1>
+              <h1 className="text-lg text-[#121D2F] font-bold uppercase">Premium</h1>
               <p className="text-[14px]/[20px] text-[#979197]">{basic}</p>
               <div className="mt-10">
                 <span className="text-[48px] font-medium">$2500</span>
@@ -388,7 +388,7 @@ const Pricing = ({ standard, basic, premium, custom, pricing }) => {
         <section className="relative h-[707px] w-[272px] rounded-3xl py-10 px-5 flex flex-col justify-between hover:border-t-[30px] hover:border-[4px] border-[2px] border-[#0203EC] cursor-pointer">
           <section className="flex flex-col gap-12">
             <div className="h-[170px]">
-              <h1 className="text-lg text-[#121D2F] font-medium">Premium Plus</h1>
+              <h1 className="text-lg text-[#121D2F] font-bold uppercase">Premium Plus</h1>
               <p className="text-[14px]/[20px] text-[#979197]">{basic}</p>
               <div className="mt-10">
                 <span className="text-[48px] font-medium">$3000</span>
@@ -452,7 +452,7 @@ const PricingSection = () => {
         <section className="h-[707px]  w-[272px] rounded-3xl py-10 px-5  flex flex-col justify-between hover:border-t-[30px] hover:border-[4px] border-[2px] border-[#0203EC] cursor-pointer">
           <section className="flex flex-col gap-12 ">
             <div className="h-[170px]">
-              <h1 className="text-lg text-[#121D2F] font-medium">Started</h1>
+              <h1 className="text-lg text-[#121D2F] font-bold uppercase">Started</h1>
               <p className="text-[14px]/[20px] text-[#979197] mb-5">
                 {standard}
               </p>
@@ -479,7 +479,7 @@ const PricingSection = () => {
         <section className="relative h-[707px] w-[272px] rounded-3xl py-10 px-5 flex flex-col justify-between hover:border-t-[30px] hover:border-[4px] border-[2px] border-[#0203EC] cursor-pointer">
           <section className="flex flex-col gap-12">
             <div className="h-[170px]">
-              <h1 className="text-lg text-[#121D2F] font-medium">Basic</h1>
+              <h1 className="text-lg text-[#121D2F] font-bold uppercase">Basic</h1>
               <p className="text-[14px]/[20px] text-[#979197]">{basic}</p>
               <div className="mt-10">
                 <span className="text-[48px] font-medium">$500</span>
@@ -519,7 +519,7 @@ const PricingSection = () => {
         <section className="relative h-[729px] w-[272px] rounded-3xl py-5 px-5 flex flex-col border-t-[20px] justify-between hover:border-t-[30px] hover:border-[4px] border-[3px] border-[#0203EC] cursor-pointer -mt-5">
           <section className="flex flex-col gap-12 mt-3">
             <div className="h-[170px]">
-              <h1 className="text-lg text-[#121D2F] font-medium mt-[12px]">Premium</h1>
+              <h1 className="text-lg text-[#121D2F] font-bold uppercase mt-[12px]">Premium</h1>
               <p className="text-[14px]/[20px] text-[#979197]">{premium}</p>
               <div className="mt-9">
                 <span className="text-[48px] font-medium">$1000.00</span>
@@ -559,7 +559,7 @@ const PricingSection = () => {
         <section className="relative h-[707px] w-[272px] rounded-3xl py-10 px-5 flex flex-col justify-between hover:border-t-[30px] hover:border-[4px] border-[2px] border-[#0203EC] cursor-pointer">
           <section className="flex flex-col gap-12">
             <div className="h-[170px]">
-              <h1 className="text-lg text-[#121D2F] font-medium">Custom</h1>
+              <h1 className="text-lg text-[#121D2F] font-bold uppercase">Custom</h1>
               <p className="text-[14px]/[20px] text-[#979197]">{custom}</p>
               <div className="mt-[18px]">
                 <span className="text-[48px] font-medium">$4000</span>
