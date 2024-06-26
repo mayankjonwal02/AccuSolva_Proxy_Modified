@@ -129,8 +129,8 @@ const NewZealand = lazy(() => import("./Pages/countries/oceania/NewZealand"));
 
 const App = () => {
   return (
-    <div className="relative">
-      <div className="fixed  z-50 rounded w-full h-full bg-transparent flex flex-col  items-end">
+    <div className="relative flex flex-col items-end">
+      <div className="fixed  z-50 rounded w-fit h-fit  flex flex-col  items-end bg-transparent">
         <div className="bg-[#1B1A55] me-5 rounded-2xl h-fit w-fit p-4 flex flex-col justify-center items-center mt-[500px] md:mt-[600px] gap-3" >
        
           <a href="mailto:sales@accusolvaproxy.com" target="_blank">
