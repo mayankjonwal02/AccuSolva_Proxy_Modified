@@ -1,0 +1,16 @@
+.custom-scrollbar {
+    width: 100%;
+    height: fit-content;
+
+    /**used to scroll text*/
+    /* white-space: nowrap;     */
+    overflow-x: scroll;
+    overflow-y: hidden;
+    /**keep scrolling when
+      *finger or cursor scrolling*/
+    -webkit-overflow-scrolling: touch; 
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+  }
+
