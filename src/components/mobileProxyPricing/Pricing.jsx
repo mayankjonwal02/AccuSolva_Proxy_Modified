@@ -36,7 +36,7 @@ const Pricing = ({ standard, basic, premium, custom, pricing }) => {
 
 
       {/* <div className="overflow-x-auto bg-red-400"> */}
-      <section className="flex flex-nowrap justify-center gap-10 lg:gap-10 mx-auto  ">
+      <section className="flex flex-nowrap justify-center gap-10 lg:gap-10 mx-auto  mt-12 ">
         <section className="h-[707px] w-[272px] rounded-3xl py-10 px-5 flex flex-col justify-between hover:border-t-[30px] hover:border-[4px] border-[2px] border-[#0203EC] cursor-pointer">
           <section className="flex flex-col gap-12 ">
             <div className="h-[170px]">
