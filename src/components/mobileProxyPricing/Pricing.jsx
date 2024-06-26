@@ -104,10 +104,10 @@ const Pricing = ({ standard, basic, premium, custom, pricing }) => {
           </section>
         </section>
 
-        <section className="relative  h-[729px] w-[272px] rounded-3xl py-5 px-5 flex flex-col border-t-[40px] justify-between hover:border-t-[50px] hover:border-[4px] border-[3px] border-[#0203EC] cursor-pointer -mt-5">
-          <section className="flex flex-col gap-12 mt-3">
+        <section className="relative  h-[750px] w-[272px] rounded-3xl py-5 px-5 flex flex-col border-t-[40px] justify-between hover:border-t-[50px] hover:border-[4px] border-[3px] border-[#0203EC] cursor-pointer -mt-[40px]">
+          <section className="flex flex-col gap-12 mt-[1px]">
             <div className="h-[170px]">
-              <h1 className="text-lg text-[#121D2F] font-medium mt-[-12px]">Advanced</h1>
+              <h1 className="text-lg text-[#121D2F] font-medium mt-[20px]">Advanced</h1>
               <p className="text-[14px]/[20px] text-[#979197]">{premium}</p>
               <div className="mt-9">
                 <span className="text-[48px] font-medium">$1000</span>
