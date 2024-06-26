@@ -38,7 +38,7 @@ const Location = () => {
             </div>
         </div>
       </div> */}
-      <MoreLocation
+      {/* <MoreLocation
         heading1={"Most popular Countries"}
         heading2={""}
         desc={
@@ -46,7 +46,7 @@ const Location = () => {
         }
         btn={"hidden"}
         bgImg={bgImg}
-      />
+      /> */}
       <ListOfCountries img={img} listOfAsia={country.listOfAsia} listOfAfrica={country.listOfAfrica} Oceania={country.Oceania} />
       <OurCustomers
         heading1={"What"}

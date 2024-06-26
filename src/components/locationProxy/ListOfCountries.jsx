@@ -9,8 +9,8 @@ const ListOfCountries = ({
   Oceania,
 }) => {
   return (
-    <main className="max-w-full px-2">
-      <img className={`mx-auto ${hideImg}`} src={img} alt="search logo" width={"50%"} />
+    <main className="w-full px-2  ">
+      {/* <img className={`mx-auto ${hideImg}`} src={img} alt="search logo" width={"50%"} /> */}
       <h1 className="text-[28px] text-center sm:text-[40px]/[48px] font-medium text-[#0103EC] mt-4">
         AccuSolva Proxy List Of{" "}
         <span className="font-bold bg-gradient-to-t from-[#1300D2] to-[#7B10A0] text-transparent bg-clip-text">
