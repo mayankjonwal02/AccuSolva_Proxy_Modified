@@ -22,7 +22,7 @@ const WhyMobileProxy = ({
           {description}
         </p>
       </div>
-      <section className="flex flex-wrap justify-start md:justify-center  gap-6 lg:gap-0 px-4 mt-12 ">
+      <section className="flex flex-wrap justify-start md:justify-center  gap-6 lg:gap-[90px] px-4 mt-12 ">
         <div className="flex items-center gap-2 w-[198px]">
           <img
             className="w-[54px] h-[54px] rounded-xl"
