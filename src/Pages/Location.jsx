@@ -23,7 +23,7 @@ const Location = () => {
         hideImg={"hidden"}
         gap={"gap-[80px]  lg:gap-[270px]"}
       />
-      <div className="w-full bg-white">
+      <div className="w-full bg-white mt-8">
         <img src={world} alt="" className="w-full" />
 
       </div>
