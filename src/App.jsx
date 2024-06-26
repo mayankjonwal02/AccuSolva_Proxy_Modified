@@ -130,15 +130,15 @@ const NewZealand = lazy(() => import("./Pages/countries/oceania/NewZealand"));
 const App = () => {
   return (
     <div className="relative flex flex-col items-end">
-      <div className="fixed  z-50 rounded w-fit h-fit  flex flex-col  items-end bg-transparent">
-        <div className="bg-[#1B1A55] me-5 rounded-2xl h-fit w-fit p-4 flex flex-col justify-center items-center mt-[500px] md:mt-[600px] gap-3" >
+      <div className="fixed  z-50 rounded w-fit h-full  flex flex-col  items-end  justify-end">
+        <div className="bg-[#1B1A55] me-5 rounded-2xl h-fit w-fit p-4 flex flex-col justify-center items-center  gap-3" >
        
           <a href="mailto:sales@accusolvaproxy.com" target="_blank">
             <FontAwesomeIcon icon={faMessage} style={{height:"45px",width:"45px"}} className="text-white" beat/>
           </a>
         </div>
 
-        <div className="bg-[#007FFF] me-5 rounded-2xl h-fit w-fit p-3 flex flex-col justify-center items-center mt-[50px] md:mt-[20px] gap-3" >
+        <div className="bg-[#007FFF] me-5 rounded-2xl h-fit w-fit p-3 flex flex-col justify-center items-center mt-[50px] mb-5 md:mt-[20px] gap-3" >
        
           <a href="https://join.skype.com/invite/uh0h1fp4c520" target="_blank">
             <FontAwesomeIcon icon={faSkype} style={{height:"50px",width:"50px"}} className="text-white" beat/>
