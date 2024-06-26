@@ -15,7 +15,7 @@ const plan = () => {
         with every plan
       </h1>
 
-      <section className="xl:flex flex-col gap-10">
+      <section className="xl:flex flex-col gap-10 justify-center items-center">
         <section className="xl:flex gap-16">
           <div className="flex flex-col justify-center items-center">
             <p className="flex justify-center items-center w-[299px]  h-[100px] text-xl font-bold text-[#1A202C] rounded-tr-[30px] rounded-bl-[30px] border hover:border-[3px] hover:text-[21px] sm:hover:translate-x-[-30px] xl:hover:translate-x-[0px] xl:hover:translate-y-[-5px] border-[#0103EC] cursor-pointer bg-white">
