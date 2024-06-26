@@ -97,7 +97,7 @@ const ResidentialProxyPricing = () => {
         desc1={"The best customer experience in the industry"}
         p1={"py-24"}
       />
-          <WhyMobileProxy />
+      <WhyMobileProxy />
     </>
   );
 };

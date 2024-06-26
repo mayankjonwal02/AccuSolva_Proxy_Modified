@@ -8,7 +8,7 @@ import img6 from "../../assets/mobilePriceImg6.png";
 
 const WhyMobileProxy = () => {
   return (
-    <main className="max-w-full py-24 px-2">
+    <main className="w-full py-24 px-2 ">
       <section className="text-center pb-10">
         <h1 className="text-[28px] text-center sm:text-[40px]/[34px] font-medium text-[#0103EC] pb-5">
           
@@ -88,7 +88,7 @@ const WhyMobileProxy = () => {
             <div>
               <p className="text-sm lg:text-[20px]/[31px] text-[#073141B2] mb-4">
                 Thanks to this automated functionality, users of AccuSolva
-                mobile proxies can browse securely without stopping to manually
+                residential proxies can browse securely without stopping to manually
                 change IP addresses regularly.
               </p>
               <p className="text-sm lg:text-[20px]/[31px] text-[#073141B2]">
