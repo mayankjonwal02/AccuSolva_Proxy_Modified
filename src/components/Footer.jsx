@@ -83,10 +83,10 @@ const Footer = () => {
 
         <section className="flex flex-col  gap-5 sm:w-[560px] sm:h-[451px] mb-12">
           <ul className="flex flex-wrap flex-row gap-[32px] text-base sm:text-lg font-medium">
-            <Link to="/mobile-proxy">
+            <Link to="/residential-proxy">
               <li>Proxies</li>
             </Link>
-            <Link to="/mobile-proxy-price">
+            <Link to="/residential-proxy-price">
               <li>Pricing</li>
             </Link>
             <Link to="/faq">

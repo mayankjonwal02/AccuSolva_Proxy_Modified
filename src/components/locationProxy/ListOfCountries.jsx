@@ -66,9 +66,9 @@ const ListOfCountries = ({
           <p className="text-[16px] sm:text-[20px]/[48px] font-light mb-4 lg:mb-0">
             Can’t find a desired location? Request one and we might add it
           </p>
-          <button className="text-[14px] w-[164px] h-[40px] rounded-[4px] border border-[#25BBC5] bg-gradient-to-t from-[#1300D2] to-[#7B10A0] text-transparent bg-clip-text">
+          <a href="https://join.skype.com/invite/uh0h1fp4c520" className="text-[14px] w-[164px] h-[40px] rounded-[4px] border border-[#25BBC5] bg-gradient-to-t from-[#1300D2] to-[#7B10A0] text-transparent bg-clip-text text-center flex justify-center items-center">
             Request Location
-          </button>
+          </a>
         </div>
       </section>
     </main>

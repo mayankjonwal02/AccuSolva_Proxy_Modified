@@ -14,7 +14,7 @@ import smallBalls from "../assets/smallBallsImg.png";
 const InstagramProxies = () => {
   return (
     <>
-      <div className="relative">
+      <div className="relative flex flex-col w-full">
         <Hero
           bg={"bg-[#D6E4E2]"}
           title1={"Scrape Instagram without getting blocked or banned"}

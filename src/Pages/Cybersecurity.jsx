@@ -30,7 +30,7 @@ const Cybersecurity = () => {
         btn2={"hidden"}
         btn3={"See Pricing"}
         img={heroImg}
-        link={'/signup'}
+        link={'https://app.accusolvaproxy.com/'}
         bgImg={smallBalls}
         bgStyle={"bg-right-top bg-[length:100px] sm:bg-[length:200px] lg:bg-[length:300px]"}
       />
@@ -71,34 +71,33 @@ const Cybersecurity = () => {
           heading1={"Choose the  "}
           heading2={"Proxy Solution"}
           heading3={"for Your Needs"}
-          boxHeading1={" Mobile Proxy"}
-          desc1={
-            "AccuSolva proxy gives you access to the largest pool of genuine LP address from real users so you can easily collect information like a local user."
-          }
-          desc2={"Target complex website from a variety of source."}
-          img={img}
-          boxHeading2={" Residential Proxy"}
-          desc3={
-            " Browse without blocking headaches. Many website hosts actively defend against rotating ISP proxies or rotating datacenter proxies by banning inauthentic users."
-          }
-          desc4={
-            "That is why our proxies are ethically source genuine residential IPs."
-          }
-          boxHeading3={"Datacenter Proxy"}
-          desc5={
-            "Rotating residential IPs are for use cases that require more intensive data collection without any limits."
-          }
-          desc6={
-            " With real residential proxies, you can access any website with higher frequency and speed to gain and maintain your competitive edge."
-          }
-          btn1={"Start Trail"}
-          link1={'/signup'}
-          btn2={"hidden"}
-          boxbgcolor={"bg-[#1B1A55]"}
-          textcolor={"text-white"}
-          MobileProxyLink={"/mobile-proxy"}
-          ResidentialProxyLinnk={"/residential-proxy"}
-          DataCenterProxyLink={"data-center-proxy"}
+          boxHeading1={"Rotating Residential Proxy"}
+        desc1={
+          "Experience reliable IPv4 proxy servers designed to seamlessly rotate IP addresses for security and access to geo-restricted content."
+        }
+        desc2={"Target complex website from a variety of source."}
+        img={img}
+        boxHeading2={"Proxies for Daily Integration"}
+        desc3={
+          "Rotating residential IPs are for use cases that require more intensive data collection without any limits."
+        }
+        desc4={
+          "With real residential proxies, you can access any website with higher frequency and speed to gain and maintain your competitive edge."
+        }
+        boxHeading3={"Worldwide Coverage"}
+        desc5={
+          "Our rotating proxy servers provide extensive coverage. You will get an uninterrupted data connection for browsing the web. Our extensive and well-distributed pool of IP addresses reduces the risk of blocking"
+        }
+        desc6={
+          " That is why our proxies are ethically source genuine residential IPs."
+        }
+        btn1={"hidden"}
+        btn2={"hidden"}
+        boxbgcolor={"bg-[#1B1A55]"}
+        textcolor={"text-white"}
+        MobileProxyLink={"/residential-proxy"}
+        ResidentialProxyLinnk={"/residential-proxy"}
+        DataCenterProxyLink={"/residential-proxy"}
         />
         <WhatMobileProxy
           title={"Integrate seamlessly"}

@@ -38,7 +38,7 @@ const ContactSales = () => {
 
 
             <div className="w-full flex flex-row px-9 gap-3 justify-center items-center ">
-              <div className=" z-50 rounded w-full h-full bg-transparent flex flex-row  items-center justify-center">
+              <div className=" z-10 rounded w-full h-full bg-transparent flex flex-row  items-center justify-center">
                 <div className="bg-[#1B1A55] me-5 rounded-2xl h-fit w-fit p-4 flex flex-col justify-center items-center  gap-3" >
 
                   <a href="mailto:sales@accusolvaproxy.com" target="_blank">

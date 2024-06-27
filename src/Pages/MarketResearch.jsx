@@ -33,11 +33,6 @@ const MarketResearch = () => {
             "bg-right-top bg-[length:100px] sm:bg-[length:200px] lg:bg-[length:300px]"
           }
         />
-         <img
-          className="absolute hidden sm:block top-[500px] lg:top-[850px] xl:top-[640px] left-[130px] ld:left-[210px] xl:left-[270px] w-[400px] lg:w-[450px]"
-          src={balls}
-          alt="bg"
-        />
         <WhatMobileProxy
           bgcolor={"bg-[#D6E4E2]"}
           title={"Anonymity and Privacy with AccuSolva proxy"}
@@ -51,7 +46,12 @@ const MarketResearch = () => {
           img={img1}
           rowReverse={"sm:flex-row"}
         />
-        <WhatMobileProxy
+         <img
+          className="absolute hidden sm:block top-[500px] lg:top-[850px] xl:top-[640px] left-[130px] ld:left-[210px] xl:left-[270px] w-[400px] lg:w-[450px]"
+          src={balls}
+          alt="bg"
+        />
+        {/* <WhatMobileProxy
           bgcolor={"bg-[#D6E4E2]"}
           title={"Anonymity and Privacy with AccuSolva proxy"}
           tcolor={"text-[#0103EC]"}
@@ -64,11 +64,11 @@ const MarketResearch = () => {
           img={img2}
           bgImg={bgImg}
           rowReverse={"sm:flex-row-reverse"}
-        />
+        /> */}
       </div>
       <div className="relative bg-gradient-to-b from-[#D6E4E2] to-[#FFCBA5A6]">
       <img className="absolute hidden sm:block -top-[30px] right-[60px] lg:right-[160px] -rotate-45 w-[300px] lg:w-[400px]" src={balls} alt="bg" />
-        <WhatMobileProxy
+        {/* <WhatMobileProxy
           title={"Fast Market Data Collection"}
           tcolor={"text-[#0103EC]"}
           content1={
@@ -79,13 +79,13 @@ const MarketResearch = () => {
           contcolor={"text-[#073141B2]"}
           img={img3}
           rowReverse={"sm:flex-row"}
-        />
-        <MoreLocation
+        /> */}
+        {/* <MoreLocation
           bgcolor={"bg-[#2148FD0D]"}
           heading1={"Buy Proxy for Market Research in Different Locations"}
           btn={"Need Other Location"}
-        />
-        <OurCustomers p1={"pb-24"} rounded={"rounded-br-[50px] "} />
+        /> */}
+        {/* <OurCustomers p1={"pb-24"} rounded={"rounded-br-[50px] "} /> */}
       </div>
     </>
   );
