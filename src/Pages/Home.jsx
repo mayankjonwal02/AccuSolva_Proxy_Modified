@@ -103,9 +103,9 @@ const Home = () => {
         btn2={"hidden"}
         boxbgcolor={"bg-[#1B1A55]"}
         textcolor={"text-white"}
-        MobileProxyLink={"/mobile-proxy"}
+        MobileProxyLink={"/residential-proxy"}
         ResidentialProxyLinnk={"/residential-proxy"}
-        DataCenterProxyLink={"data-center-proxy"}
+        DataCenterProxyLink={"/residential-proxy"}
       />
       <WhichProxy
         bg={"lg:flex-row bg-right-bottom bg-[#4379EE29] bg-[length:400px] md:bg-[length:700px] xl:bg-[length:900px]"}

@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const HelpProcess = ({ bg, title, desc, data, btn }) => {
   return (
-    <main className={`w-full py-24 ${bg} z-50`}>
+    <main className={`w-full py-24 ${bg} z-40`}>
       <section className="max-w-[801px] mx-auto text-center z-10 relative">
         <h1 className="text-[28px] sm:text-[36px] font-medium text-[#0103EC] mb-6">
           {title}

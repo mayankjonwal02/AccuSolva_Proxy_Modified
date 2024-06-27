@@ -27,11 +27,11 @@ const ContactSales = () => {
         Reach out, and let's create a universe of possibilities together!
       </p>
       <div className="w-fit flex flex-col max-h-fit mx-9 mt-9 bg-white bg-opacity-[0.1] rounded-3xl bg-gradient-to-r from-[#FFFFFF1A]  via-[#FFFFFF03] to-[#FFFFFF1A] border-t-2 border-b-2">
-        <div className="w-[589px]  min-h-full  flex flex-col justify-center mx-12 my-12 items-center ">
+        <div className=" w-fit lg:w-[589px]  min-h-full  flex flex-col justify-center mx-12 my-12 items-center ">
           {/* <div className="sm:text-xl xl:text-3xl font-bold text-white mt-12 ms-12">
             Let's Connect
           </div> */}
-          <div className="w-full min-h-full   flex flex-col justify-center items-center invisible lg:visible " >
+          <div className="w-full min-h-full   flex flex-col justify-center items-center visible " >
             <img src={astro} alt="" className=" p-4  rounded-3xl h-fit w-auto" />
           </div>
           <div className="w-full flex flex-col mt-7   flex-grow my-7">

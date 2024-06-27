@@ -12,7 +12,7 @@ import smallBalls from "../assets/smallBallsImg.png";
 const AdVerification = () => {
   return (
     <>
-      <div className="relative">
+      <div className="relative flex flex-col w-full p-2">
         <Hero
           bg={"bg-[#D6E4E2]"}
           title1={"Ad Verification Proxies"}
