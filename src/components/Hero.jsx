@@ -44,7 +44,7 @@ const Hero = ({ title1, title2, btn1, btn2, img }) => {
               {btn1}
             </button>
           </Link>
-          <Link to="https://app.accusolvaproxy.com/">
+          <Link to="/residential-proxy-price">
             <button className="rounded-xl w-full lg:w-[192px]  h-[50px] text-[#373DA0] hover:scale-105 bg-[#F6FDFF] shadow-inner shadow-second-btn">
               {btn2}
             </button>

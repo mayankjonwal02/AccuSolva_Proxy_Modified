@@ -311,7 +311,7 @@ const Pricing = ({ standard, basic, premium, custom, pricing }) => {
               <h1 className="text-lg text-[#121D2F] font-bold uppercase">Business Pro</h1>
               <p className="text-[14px]/[20px] text-[#979197]">{basic}</p>
               <div className="mt-10">
-                <span className="text-[48px] font-medium">$2500</span>
+                <span className="text-[48px] font-medium">$2000</span>
                 <p className="text-xs text-[#979197]">
                   <span className="border-b border-dotted">No</span>{" "}Monthly
                   Limit
