@@ -144,7 +144,7 @@ const Header = () => {
                         Residential Proxy
                       </span>
                       <p className="text-[14px]/[20px] text-[#475467] font-['Inter'] mt-1">
-                        Over 30 million 3G/4G/5G Residential proxies
+                        Over 30 million Residential proxies
                       </p>
                     </div>
                   </li>
